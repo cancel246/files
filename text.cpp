@@ -14,7 +14,7 @@ int main( )
 	{
 		myfile << a << " " << b << " " << c;
 	}else
-	cout << "error opening abc.txt"
+	cout << "error opening abc.txt";
 	myfile.close();
  
    return 0;
